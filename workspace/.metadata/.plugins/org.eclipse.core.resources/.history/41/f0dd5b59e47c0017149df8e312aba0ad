@@ -1,0 +1,14 @@
+package practice;
+import java.io.FileOutputStream;
+import java.util.*;
+public class StringTest1 {
+public static void main(String args[])
+{
+	FileOutputStream fos = new FileOutputStream("java.txt");
+	
+	String s1 = "Edureka";
+	String s2 = "Edureka";
+	System.out.println((s1 == s2) + "\t" + s1.equals(s2));
+	
+}
+}

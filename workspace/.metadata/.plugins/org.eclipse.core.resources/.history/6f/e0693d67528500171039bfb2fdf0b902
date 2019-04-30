@@ -1,0 +1,22 @@
+package DAY3;
+
+public class Access_working {
+	private Integer rollno;
+	//always use Non primitive data type
+	private String name;
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		StudentDriver student1 = new StudentDriver();
+		if(student1.getName() == "VSP")
+		System.out.println(student1.getName());
+		
+		
+	}
+	
+
+}

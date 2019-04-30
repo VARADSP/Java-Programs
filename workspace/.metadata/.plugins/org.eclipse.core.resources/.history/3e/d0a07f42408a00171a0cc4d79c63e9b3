@@ -1,0 +1,16 @@
+package workshopday4;
+
+public class Employee {
+	double emp_id;
+	String emp_firstname;
+	String emp_lastname;
+	String emp_desgn;
+	String emp_dept;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

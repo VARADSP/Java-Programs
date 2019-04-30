@@ -1,0 +1,39 @@
+package DAY3;
+
+public class Access_working {
+	private Integer rollno;
+	//always use Non primitive data type
+	private String name;
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+
+
+
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+
+
+
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+}

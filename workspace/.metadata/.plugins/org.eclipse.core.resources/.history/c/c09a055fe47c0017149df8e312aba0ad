@@ -1,0 +1,19 @@
+package practice;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.util.*;
+public class StringTest1 {
+public static void main(String args[]) throws Exception
+{
+	FileOutputStream fos = new FileOutputStream("java.txt");
+	String str = "JAVA IS AWESOME";
+	byte[] b = str.getBytes();
+	fos.write(b);
+	
+	
+	String s1 = "Edureka";
+	String s2 = "Edureka";
+	System.out.println((s1 == s2) + "\t" + s1.equals(s2));
+	
+}
+}

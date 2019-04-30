@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+package DAY3;
+
+/**
+ * @author VARADSP
+ *
+ */
+public class StudentDriver {
+	private String name="VSP";
+	private Integer rollno=36052;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the rollno
+	 */
+	public Integer getRollno() {
+		return rollno;
+	}
+
+	/**
+	 * @param rollno the rollno to set
+	 */
+	public void setRollno(Integer rollno) {
+		this.rollno = rollno;
+	}
+
+}
